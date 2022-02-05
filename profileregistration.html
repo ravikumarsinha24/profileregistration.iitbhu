@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>profileregistration.iitbhu</title>
+  </head>
+<body>
+
+    <div class="container">
+    <form>
+    <h1 class="heading" >PROFILE REGISTRATION 2021-22</h1>
+        <h2 class="subheading">Indian Institute of Technology, Varanasi</h2>
+    
+    <P>Name:* <input type="text" name="name" placeholder="Suresh Yadav" required></P>
+    <p>Father's Name:* <input type="text" name="Father's Name" placeholder="Joginder Yadav" required></p>
+    <p>Mother's Name:* <input type="text" name="Mother's Name" placeholder="Sarita Devi" required></p>
+    <p>D.O.B:* <input type="date" name="D.O.B" id="D.O.B"required></p>
+    <fieldset>
+        <legend>Gender*</legend>
+    <p>Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female"></p>
+</fieldset>
+<P>Address: <textarea name="address" id="address" cols="100" rows="10" placeholder="Enter your address" ></textarea></P>
+<p>Pincode:* <input type="number" name="pincode" id="pincode" placeholder="000000" required></p>
+<p>Email Id:* <input type="email" name="email" id="email" placeholder="sinha@gmail.com" ></p>
+<P>Mobile Number:*<input type="number" name="Mobile Number" id="Mobile Number" placeholder="123456789" required></P>
+<p>Seat allotment letter:*<input type="file" name="Seat allotment letter" id="Seat allotment letter"required></p>
+
+<h2>Payment Gateway</h2>
+<p>Card type:* <select name="card type" id="card type"required>
+ <option value="">choose card</option>
+ <option value="visa">visa</option>
+ <option value="rupay">rupay</option>
+ <option value="mastercard">mastercard</option>
+</select></p>
+ <p>Card Number:* <input type="number" name="Card Number" id="Card Number" placeholder="1111-2222-3333-4444" required></p>
+ <P>cvv:*<input type="date" name="cvv" id="cvv"required></P>
+ <p>Card Holder's Name:*<input type="text" name="Card Holder's Name" id="Card Holder's Name" placeholder="Card Holder's Name"> </p>
+
+ <button>Pay now</button>
+</form> 
+</div>
+<script src="script.js"></script>
+</body>
+</html>
